@@ -25,7 +25,7 @@ def monopoly_with_third_tier
       :two_pieces_owned=>50,
       :three_pieces_owned=>100,
       :four_pieces_owned=>200}}
-  base[:railroads] = 
+  base[:railroads][:name] = "somehting"
   base
 end
 
