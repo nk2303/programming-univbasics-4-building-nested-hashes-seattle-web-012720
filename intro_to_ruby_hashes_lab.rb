@@ -40,7 +40,7 @@ def monopoly_with_third_tier
       :shortline=>
       {
         "mortgage_value"=>"$800"
-      }}}
+      }}
   base
 end
 
