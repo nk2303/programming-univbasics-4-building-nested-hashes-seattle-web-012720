@@ -35,6 +35,6 @@ def monopoly_with_fourth_tier
   # they'll guide you in how to modify what you just did to have more
   # complexity.
   base = monopoly_with_third_tier
-  #base[:railroads][:names][:reading_railroad] = $"100"
+  base[:railroads][:names][:reading_railroad] = {"mortgage_value" => $"100"}
   base
 end
