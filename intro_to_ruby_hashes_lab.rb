@@ -21,7 +21,7 @@ def monopoly_with_third_tier
   # complexity.
   #monopoly_with_second_tier
   base = monopoly_with_second_tier
-  base[:railroads] = { :rent_in_dollars => 4}
+  base[:railroads] = { :rent_in_dollars => {}}
   base
 end
 
